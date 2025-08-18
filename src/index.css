@@ -5,5 +5,9 @@
 @theme {
   --font-display: "Manrope", sans-serif;
 
-  --color-dark-3: rgb(199, 199, 199);
+  --color-dark-3: rgba(99, 97, 97, 0.992);
+}
+
+.kjd {
+  color: rgba(99, 97, 97, 0.992);
 }
