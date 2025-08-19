@@ -5,11 +5,15 @@ import PresentationSection from "./sections/PresentationSection";
 
 function App() {
   return (
-    <main className="font-display px-56 pt-16 pb-80">
-      <BannerSection />
-      <FeaturedProductsSection pageData={pageData} />
-      <PresentationSection />
-    </main>
+    <>
+      <header className="font-display px-56 pt-16 ">
+        <BannerSection />
+      </header>
+      <main className="font-display mt-48 px-[22rem] pb-80">
+        <FeaturedProductsSection pageData={pageData} />
+        <PresentationSection />
+      </main>
+    </>
   );
 }
 

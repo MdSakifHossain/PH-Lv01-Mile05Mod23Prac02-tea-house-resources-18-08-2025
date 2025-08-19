@@ -1,16 +1,16 @@
 const PresentationSection = () => {
   return (
-    <section className="mt-36 grid grid-cols-2 gap-12 px-32">
+    <section className="mt-36 grid grid-cols-2 gap-12">
       {/* image section */}
       <div className="grid gap-8 grid-cols-2 grid-rows-3 *:rounded-xl">
-        <div className="bg-gradient-to-r from-[#FF8938] to-[#FF0000] opacity-10"></div>
+        <div className="bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10"></div>
         <div className="row-span-2 bg-[rgba(230,165,35,0.1)] py-11 flex items-center justify-center">
-          <img src="/public/images/fresh-1.png" alt="fresh1" />
+          <img src="/images/fresh-1.png" alt="fresh1" />
         </div>
         <div className="row-span-2 bg-[rgba(88,118,57,0.1)] py-11 flex items-center justify-center">
-          <img src="/public/images/fresh-2.png" alt="fresh2" />
+          <img src="/images/fresh-2.png" alt="fresh2" />
         </div>
-        <div className="bg-gradient-to-r from-[#F4F4F4] to-transparent"></div>
+        <div className="bg-gradient-to-r from-[rgb(244,244,244)] to-transparent"></div>
       </div>
       {/* text section */}
       <div className="flex flex-col gap-8 ">
