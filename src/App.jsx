@@ -1,7 +1,8 @@
 import { pageData } from "./utils/pageData";
-import BannerSection from "./sections/BannerSection";
+import BannerSection from "./sections/BannerAndEventsSection";
 import FeaturedProductsSection from "./sections/FeaturedProductsSection";
 import PresentationSection from "./sections/PresentationSection";
+import ReviewSection from "./sections/ReviewSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className="font-display mt-48 px-[22rem] pb-80">
         <FeaturedProductsSection pageData={pageData} />
         <PresentationSection />
+        <ReviewSection />
       </main>
     </>
   );
